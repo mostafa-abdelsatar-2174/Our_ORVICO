@@ -25,6 +25,7 @@ const Routes = [
     children: [
       { index: true, element: <Home /> },
       { path: "home", element: <Home /> },
+      { path: "Our_ORVICO/", element: <Home /> },
       {
         path: "services",
         element: <ServicesLayout />,
